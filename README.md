@@ -12,16 +12,6 @@ Simple, responsive schedule template for hackathons. Built on Angular.js, it tak
 ## Demo
 You can see a live demo [here](https://schedule-demo.hackuci.com).
 
-## Screenshots
-#### Desktop
-![Desktop](/screenshots/desktop.png)
-
-#### Desktop (Two-day Schedule)
-![Desktop with two-day schedule](/screenshots/desktop_dual.png)
-
-#### Mobile
-![Mobile](/screenshots/mobile.png)
-
 ## Setup
 1. Clone the repository.
 2. Update the `startDate` and `endDate` variables in `config.json`.
