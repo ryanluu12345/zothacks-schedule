@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce99a5ea-0100-4894-a9b9-749d37d55446" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,27 +23,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="104" column="35" lean-forward="false" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-              <folding>
-                <marker date="1541965429728" expanded="true" signature="1909:4911" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="1947:2230" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="2026:2230" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="2089:2152" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="2193:2230" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4455:4806" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4455:4866" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4455:4879" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4455:4894" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4455:4903" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4464:4789" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4508:4564" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4607:4663" ph="..." />
-                <marker date="1541965429728" expanded="true" signature="4710:4770" ph="..." />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -111,12 +96,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/one_day_schedule.json" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -149,6 +134,17 @@
             <path>
               <item name="schedule" type="b2602c69:ProjectViewProjectNode" />
               <item name="schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="schedule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="schedule" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="schedule" type="b2602c69:ProjectViewProjectNode" />
@@ -268,29 +264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="104" column="35" lean-forward="false" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-          <folding>
-            <marker date="1541965429728" expanded="true" signature="1909:4911" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="1947:2230" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="2026:2230" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="2089:2152" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="2193:2230" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4455:4806" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4455:4866" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4455:4879" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4455:4894" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4455:4903" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4464:4789" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4508:4564" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4607:4663" ph="..." />
-            <marker date="1541965429728" expanded="true" signature="4710:4770" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -322,6 +295,14 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
+          <folding />
         </state>
       </provider>
     </entry>
