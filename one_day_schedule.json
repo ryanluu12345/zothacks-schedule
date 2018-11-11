@@ -1,0 +1,69 @@
+{
+  "day": [
+    {
+      "name": "Hacker and Mentor Check In",
+      "time": "8:00-9:30am",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Opening Ceremony",
+      "time": "8:30-8:45am",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Ice Breakers",
+      "time": "8:45-9:30am",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Hacking Begins",
+      "time": "9:30am",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "REST API and Flask Workshop",
+      "time": "10:00-11:00am",
+      "location": "ICS 432"
+    },
+    {
+      "name": "Lunch",
+      "time": "12:00-1:00pm",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Hackathon Q&A Panel",
+      "time": "12:30-1:15pm",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Deploying Applications with Google Cloud Platform",
+      "time": "4:00-5:00pm",
+      "location": "ICS 432"
+    },
+    {
+      "name": "Dinner",
+      "time": "5:00-6:00pm",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Devpost Submission Deadline",
+      "time": "7:30pm",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Setup for Presentations",
+      "time": "7:30-8:00pm",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Hacker Presentations",
+      "time": "8:00-8:45pm",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Closing Ceremony",
+      "time": "9:15-9:45pm",
+      "location": "DBH 6011"
+    }
+  ]
+}

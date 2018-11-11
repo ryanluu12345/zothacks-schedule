@@ -10,7 +10,7 @@
   <meta property="og:url" content="https://www.hackuci.com">
   <meta property="og:site_name" content="HackUCI">
   <meta name="twitter:card" content="summary_large_image">
-  <title> HackUCI 2018 </title>
+  <title> ZotHacks 2018 </title>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -23,12 +23,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" as="style" onload="this.rel='stylesheet'">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../static/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
   
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="./images/icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../static/images/logo.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../static/images/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../static/images/logo.png">
 </head>
 <body ng-controller="ScheduleCtrl">
   <!-- Navbar -->
@@ -36,10 +36,10 @@
     <!-- Navbar for desktop -->
     <div class="navbar ui grid computer only">
       <div href="/" class="logo-header logo-header__spinning">
-        <img src="./images/logo-cog.svg">
+        <img src="../static/images/logo-cog.svg">
       </div>
       <div href="/" class="logo-header">
-        <img src="./images/logo-anteater.svg">
+        <img src="../static/images/hack_logo.png">
       </div>
       <div class="logo-header_live center">
         LIVE
@@ -61,48 +61,18 @@
         </a>
       </div>
     </div>
-    <!-- Hamburger menu button for mobile -->
-    <div class="navbar-mobile ui grid mobile only tablet only">
-      <div class="navbar-mobile-menu-button">
-        <i class="fa fa-bars navbar-mobile-menu-icon" aria-hidden="true"></i>
-      </div>
-    </div>
   </div>
   <!-- End navbar -->
-  <!-- Navbar modal for mobile -->
-  <div id="navbar-modal" class="ui modal navbar-modal">
-    <div class="header">
-      <span class="modal-title">Menu</span>
-      <div class="navbar-mobile-menu-close-button">
-        <i class="fa fa-times navbar-mobile-menu-close-icon" aria-hidden="true"></i>
-      </div>
-    </div>
-    <div class="content">
-      <div class="navbar-mobile-menu">
-        <a href="/" class="menu-item" ng-click="onMenuClick()">
-          HOME
-        </a>
-        <a href="https://hackuci2018.slack.com" target="_blank" class="menu-item" ng-click="onMenuClick()">
-          SLACK
-          <i class="fa fa-external-link"></i>
-        </a>
-        <a href="https://hackuci2018.devpost.com/" target="_blank" class="menu-item" ng-click="onMenuClick()">
-          DEVPOST
-          <i class="fa fa-external-link"></i>
-        </a>
-      </div>
-    </div>
-  </div>
   <!-- End navbar modal for mobile -->
   <div id="schedule">
     <section id="hero" class="center">
       <!-- Hero logo on mobile -->
       <div class="logo-header-container ui grid mobile only tablet only">
-        <div class="logo-header logo-header__spinning">
-          <img src="./images/logo-cog.svg">
+        <div href="/" class="logo-header logo-header__spinning">
+          <img src="../static/images/logo-cog.svg">
         </div>
         <div class="logo-header">
-          <img src="./images/logo-anteater.svg">
+          <img src="../static/images/hack_logo.png">
         </div>
       </div>
       <!-- End hero logo on mobile -->
@@ -110,28 +80,7 @@
       <!-- Countdown timer -->
       <div class="countdown-container">
         <span class="countdown-segment">
-          <span class="countdown countdown--bold" ng-style="{ 'opacity' : countdownOpacity }">
-            {{ hours }}
-          </span>
-          <span class="countdown" ng-style="{ 'opacity' : countdownOpacity }">
-            Hours
-          </span>
-        </span>
-        <span class="countdown-segment">
-          <span class="countdown countdown--bold countdown--fixed" ng-style="{ 'opacity' : countdownOpacity }">
-            {{ minutes }}
-          </span>
-          <span class="countdown" ng-style="{ 'opacity' : countdownOpacity }">
-            Min
-          </span>
-        </span>
-        <span class="countdown-segment">
-          <span class="countdown countdown--bold countdown--fixed" ng-style="{ 'opacity' : countdownOpacity }">
-            {{ seconds }}
-          </span>
-          <span class="countdown" ng-style="{ 'opacity' : countdownOpacity }">
-            Sec
-          </span>
+          ZotHacks 2018
         </span>
       </div>
       <!-- End countdown timer -->
@@ -147,24 +96,28 @@
 
     <section id="schedule-container">
       <!-- Loop through the array of schedules and print them out -->
-      <div class="schedule-box ui stackable" ng-class="{ 'one column grid' : schedule.length === 1, 'two column grid' : schedule.length === 2, 'three column grid' : schedule.length >= 3 }">
-        <div class="column" ng-repeat="day in schedule">
+      <div class="schedule-box ui stackable">
+        <div class="column">
           <div class="title">
-            {{ day.day }}
+            November 17, 2018
           </div>
+          {% if events %}
+          {% for event in events["day"] %}
           <div class="schedule-list">
-            <div class="schedule" ng-repeat="event in day.schedule">
+            <div class="schedule">
               <span class="schedule-title">
-                {{ event.name }}
+                {{event["name"]}}
               </span>
               <span class="schedule-time">
-                {{ event.time }}
+                {{event["time"]}}
               </span>
               <span class="schedule-location">
-                {{ event.location }}
+                {{event["location"]}}
               </span>
             </div>
           </div>
+          {% endfor %}
+          {% endif %}
         </div>
       </div>
     </section>

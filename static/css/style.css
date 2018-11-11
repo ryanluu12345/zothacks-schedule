@@ -219,7 +219,7 @@ body {
   align-items: center;
   border-radius: 0;
   color: white;
-  background: linear-gradient(-225deg, #2cd8d5 0%, #6b8dd6 48%, #8e37d7 100%);
+  background: #4D6D9A;
 }
 
 #navbar-modal .content {
@@ -258,7 +258,7 @@ body {
 
 #schedule #hero::before {
   content: '';
-  background-image: linear-gradient(to bottom right, #02ccba 0%, #3d99be 31%, #9848d5 100%);
+  background: #4D6D9A;
   opacity: 0.8;
   width: 100%;
   left: 0;
@@ -268,7 +268,7 @@ body {
 
 #schedule .logo-header-container {
   height: 100px;
-  margin: 0 0 5% 0;
+  margin: 0 0 10% 0;
   animation: fadein 0.5s both;
   animation-delay: 0.15s;
 }
@@ -380,7 +380,7 @@ body {
   right: 0;
   border-radius: 15px;
   box-shadow: 0 2px 16px rgba(24, 51, 59, .35);
-  background: rgba(52, 73, 94, 0.99);
+  background: #5F6366;
   position: absolute;
   z-index: 1000;
 }
@@ -433,7 +433,7 @@ body {
 #schedule #schedule-container .schedule-list .schedule .schedule-title {
   width: 65%;
   font-weight: 400;
-  font-size: 0.95em;
+  font-size: 1em;
   letter-spacing: 0.07em;
   line-height: 1.4em;
 }
@@ -441,14 +441,14 @@ body {
 #schedule #schedule-container .schedule-list .schedule .schedule-time {
   width: 35%;
   text-align: right;
-  color: #02ccba;
+  color: #99CED3;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 0.95em;
   letter-spacing: 0.02em;
 }
 
 #schedule #schedule-container .schedule-list .schedule .schedule-location {
-  font-size: 0.8em;
+  font-size: 0.9em;
   letter-spacing: 0.05em;
   line-height: 1.5em;
   color: rgba(236, 240, 241, 0.9);
