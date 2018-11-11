@@ -1,3 +1,4 @@
+ALL CREDIT TO CHRIS WONG
 # Hackathon Schedule Template
 Simple, responsive schedule template for hackathons. Built on Angular.js, it takes in a schedule and displays it in a nicely formatted list.
 
