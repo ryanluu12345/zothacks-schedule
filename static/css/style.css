@@ -457,6 +457,7 @@ body {
 @media (max-width: 767px) {
   #schedule #schedule-container .schedule-list {
     width: 97%;
+    margin: 0.7em 0em;
   }
 
   #schedule #schedule-container .schedule-list .schedule .schedule-title {
