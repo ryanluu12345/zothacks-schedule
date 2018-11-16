@@ -7,12 +7,17 @@
     },
     {
       "name": "Opening Ceremony",
-      "time": "8:30-9:00am",
+      "time": "8:30-8:45am",
       "location": "DBH 6011"
     },
     {
-      "name": "Ice Breakers",
-      "time": "9:00-9:30am",
+      "name": "Social Mixer",
+      "time": "8:45-9:15am",
+      "location": "DBH 6011"
+    },
+    {
+      "name": "Dean's Address",
+      "time": "9:15-9:30am",
       "location": "DBH 6011"
     },
     {
