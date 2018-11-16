@@ -332,7 +332,7 @@ body {
   width: 200px;
   display: block;
   margin: 1em auto 0;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #EDB5BF;
 }
 
 @media (max-width: 767px) {
@@ -344,7 +344,7 @@ body {
 
   #schedule .countdown-container:after {
     width: 150px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #EDB5BF;
   }
 
   #schedule .countdown-segment .countdown--fixed {
